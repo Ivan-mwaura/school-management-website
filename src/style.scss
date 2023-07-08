@@ -1,0 +1,431 @@
+.main-navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #420a0a;
+    height: auto;
+
+
+    .logo{
+        width: 150px;
+        height: 130px;
+        background-color: #420a0a transparentize($color: #420a0a, $amount: 0);    
+    }
+
+
+.navbarOne-container{
+    
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;   
+
+    .navbarOne-content{
+
+        margin-left: 45px;
+        display: flex;
+        gap :60px;
+    
+        
+        .navOne-button1,.navOne-button2,.navOne-button3,.navOne-button4,.navOne-button5,.navOne-button6,.navOne-button7,.navOne-button8{
+        
+            border: none;
+            color: white;
+            background-color: #420a0a;
+            font-size: 14px;
+            
+            //underlining effect
+            position: relative;           
+            cursor: pointer;
+
+            &::after,
+            &::before {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              height: 2px;
+              background-color: #fff;
+              width: 0;
+              transition: width 0.3s;
+            }
+          
+            &::after {
+              left: 0;
+            }
+          
+            &::before {
+              right: 0;
+            }
+          
+            &:hover::after,
+            &:hover::before {
+              width: 50%;
+            }   
+          
+        }
+     
+
+        //styling for buttons lists
+        //academics
+        .academics{
+            margin-top: 20px;
+        
+            .academic-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 39px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+               //admissions
+          .admissions{
+            margin-top: 20px;
+        
+            .admissions-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 39px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+        //campuses list
+
+        .campuses{
+            margin-top: 20px;
+        
+            .campuses-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 39px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+        //student-affairs
+        .students-affairs{
+            margin-top: 20px;
+        
+            .students-affairs-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 39px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+        //contact us
+        .contact-us{
+            margin-top: 20px;
+        
+            .contact-us-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 39px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+        //contact us
+        .about-us{
+            margin-top: 20px;
+        
+            .about-us-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+                
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 39px;
+                    
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+       
+    }
+
+
+}
+
+
+//navbarTwo
+
+.navbarTwo-container{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;   
+
+    .navbarTwo-content{
+
+        margin-left: 30px;
+        display: flex;
+        gap :40px;     
+
+        .navTwo-buttons{
+        
+            border: none;
+            color: white;
+            background-color: #420a0a;
+            font-size: 14px;
+           
+             //underlining effect
+             position: relative;           
+             cursor: pointer;
+ 
+             &::after,
+             &::before {
+               content: "";
+               position: absolute;
+               bottom: 0;
+               margin-bottom: 15px;
+               height: 2px;
+               background-color: #fff;
+               width: 0;
+               transition: width 0.3s;
+             }
+           
+             &::after {
+               left: 0;
+             }
+           
+             &::before {
+               right: 0;
+             }
+           
+             &:hover::after,
+             &:hover::before {
+               width: 50%;
+             }  
+        }
+
+       
+    }
+
+
+}
+
+}
+
+//FOOTER
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    background-color:#420a0a;
+    width: 100%;
+    color: white;
+    
+
+    .quick-access{
+        display: flex;        
+        flex-direction: row;
+        gap: 200px;
+        justify-content: center;
+
+        h1{
+            font-size: 17px;
+        }
+        p{
+            font-size: 13px;
+        }
+
+        h1,p{
+             //underlining effect
+             position: relative;
+             cursor: pointer;
+    
+             &::after,
+             &::before {
+               content: "";
+               position: absolute;
+               bottom: 0;
+               height: 2px;
+               background-color: #fff;
+               width: 0;
+               transition: width 0.3s;
+             }
+           
+             &::after {
+               left: 0;
+             }
+           
+             &::before {
+               right: 0;
+             }
+           
+             &:hover::after,
+             &:hover::before {
+               width: 50%;
+             }   
+        }
+    }
+
+    .disclaimer{
+        display: flex;
+        justify-content: center;
+
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .handles{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        gap: 200px;
+
+        .social-media-handles{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            p{
+                 //underlining effect
+            position: relative;           
+            cursor: pointer;
+
+            &::after,
+            &::before {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              height: 2px;
+              background-color: #fff;
+              width: 0;
+              transition: width 0.3s;
+            }
+          
+            &::after {
+              left: 0;
+            }
+          
+            &::before {
+              right: 0;
+            }
+          
+            &:hover::after,
+            &:hover::before {
+              width: 50%;
+            }  
+            }
+        }
+    }
+}
