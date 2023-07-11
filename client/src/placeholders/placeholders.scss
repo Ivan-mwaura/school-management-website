@@ -1,0 +1,51 @@
+.news-skeleton-component {
+    display: flex;
+    flex-direction: column;
+    height: 400px; /* Adjust the height based on your design */
+    width: 330px;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    
+  }
+  
+  .news-skeleton-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .news-skeleton-heading {
+    font-size: 15px;
+    padding: 5px;
+  }
+  
+  .news-skeleton-label-date {
+            position: relative;
+            bottom: 0;
+            gap: 20px;      
+            display: flex;
+            flex-direction:column;
+            padding: 5px;
+  }
+  
+  .news-skeleton-label {
+    flex: 1;
+    height: 50px;
+    margin-right: 5px;
+  }
+  
+  .news-skeleton-date {
+    flex: 1;
+    height: 50px;
+    margin-left: 5px;
+  }
+  
+  .news-skeleton-title {
+    position: absolute;
+    display: flex;      
+    right: 0;
+    width: 30px;
+    height: 10px;
+    font-size: 11px;
+  }
+  

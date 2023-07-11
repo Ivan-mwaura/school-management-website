@@ -1,0 +1,629 @@
+
+.homepage{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+
+.main-navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #420a0a;
+    height: auto;
+
+
+    .logo{
+        width: 150px;
+        height: 130px;
+        background-color: #420a0a transparentize($color: #420a0a, $amount: 0);    
+    }
+
+
+.navbarOne-container{
+    
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;   
+
+    .navbarOne-content{
+
+        margin-left: 60px;
+        display: flex;
+        gap :80px;
+    
+        
+        .navOne-button1,.navOne-button2,.navOne-button3,.navOne-button4,.navOne-button5,.navOne-button6,.navOne-button7,.navOne-button8{
+        
+            border: none;
+            color: white;
+            background-color: #420a0a;
+            font-size: 15px;
+            
+            //underlining effect
+            position: relative;           
+            cursor: pointer;
+
+            &::after,
+            &::before {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              height: 2px;
+              background-color: #fff;
+              width: 0;
+              transition: width 0.3s;
+            }
+          
+            &::after {
+              left: 0;
+            }
+          
+            &::before {
+              right: 0;
+            }
+          
+            &:hover::after,
+            &:hover::before {
+              width: 50%;
+            }   
+          
+        }
+     
+
+        //styling for buttons lists
+        //academics
+        .academics{
+            margin-top: 20px;
+        
+            .academic-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 37px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+    
+               //admissions
+          .admissions{
+            margin-top: 20px;
+        
+            .admissions-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 37px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+        //campuses list
+
+        .campuses{
+            margin-top: 20px;
+        
+            .campuses-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 37px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+
+        //student-affairs
+        .students-affairs{
+            margin-top: 20px;
+        
+            .students-affairs-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 37px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+        //contact us
+        .contact-us{
+            margin-top: 20px;
+        
+            .contact-us-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 37px;
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+
+        //contact us
+        .about-us{
+            margin-top: 20px;
+        
+            .about-us-list{
+                display: flex;
+                position: absolute;
+                z-index: 999;
+                
+
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: 37px;
+                    
+                    background-color: rgb(54, 54, 54);
+
+                li{
+                    padding: 15px;
+                    color: white;
+                    font-size: 13px;
+
+                    &:hover{
+                        background-color: #420a0a;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+                }
+                }
+               }
+        }
+       
+    }
+
+
+}
+
+
+
+//navbarTwo
+
+.navbarTwo-container{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;   
+
+    .navbarTwo-content{
+
+        margin-left: 50px;
+        display: flex;
+        gap :60px;     
+
+        .navTwo-buttons{
+        
+            border: none;
+            color: white;
+            background-color: #420a0a;
+            font-size: 14px;
+           
+             //underlining effect
+             position: relative;           
+             cursor: pointer;
+ 
+             &::after,
+             &::before {
+               content: "";
+               position: absolute;
+               bottom: 0;
+               margin-bottom: 15px;
+               height: 2px;
+               background-color: #fff;
+               width: 0;
+               transition: width 0.3s;
+             }
+           
+             &::after {
+               left: 0;
+             }
+           
+             &::before {
+               right: 0;
+             }
+           
+             &:hover::after,
+             &:hover::before {
+               width: 50%;
+             }  
+        }
+
+       
+    }
+
+
+}
+
+}
+
+    //NavbarOneListComponents Styling
+        //Academics
+
+        .academics-general{
+            padding: 10px;
+            
+            .title{
+                font-size: 30px;
+                color: maroon;
+            }
+
+            h1{
+                font-size: 17px;
+            }
+        }
+        
+             //NavbarOneListComponents Styling
+        //Academics
+
+        .admissions-general{
+            padding: 10px;
+            
+            .title{
+                font-size: 30px;
+                color: maroon;
+            }
+
+            h1{
+                font-size: 17px;
+            }
+        }
+
+         //NavbarOneListComponents Styling
+        //campuses
+    .campuses-general{
+
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+
+        .campuses-display{
+            display: flex;
+            flex-direction: row;
+
+            .left{
+                display: flex;
+                flex-direction: column;
+
+                .location{
+                    position: relative;
+                    bottom: 0;
+                }
+            }
+
+            img{
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+            }
+        }
+        
+    }
+           
+    
+ 
+  
+  .display-section{
+    flex: 1;
+
+     //loading state placeholder for the diplaySection   
+
+  .loading-placeholder{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  } 
+
+}
+
+
+//slideshow styles
+.slideshow{
+
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    margin-top: 0px;
+    .slideshow-images{
+      
+        img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+
+    .prev{
+        position: absolute;
+        z-index: 999;
+        display: flex;
+        left: 0;
+        margin-top: 150px;     
+        
+    }
+    .next{
+        position: absolute;
+        z-index: 999;
+        display: flex;
+        right: 0;
+        margin-top: 150px      
+    }
+}
+.slideshow-images {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-in-left {
+    transform: translateX(0%);
+  }
+
+  //News Styling
+
+.news-container{
+
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    padding: 30px;
+    
+    .news-component{
+        width: 320px;
+        height: 380px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: white;
+        box-shadow: 0px 3px 2px 4px whitesmoke;
+        border-radius: 3px;     
+        
+
+        &:hover{
+            transform: scale(1.1);
+        }
+
+        .news-image{
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .heading{
+            font-size: 15px;
+            padding: 5px;
+        }
+        .label-date{
+            position: relative;
+            bottom: 0;
+            gap: 20px;      
+            display: flex;
+            flex-direction:row;
+            padding: 5px;
+            
+            .label{
+            font-size: 12px;
+            }
+
+            .title{
+                position: absolute;
+                display: flex;      
+                right: 0;
+                font-size: 11px;
+            }
+        }
+       
+    }
+}
+
+//FOOTER
+
+.footer{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    background-color:#420a0a;
+    width: 100%;
+    padding-bottom: 20px;
+    color: white;
+    
+
+    .quick-access{
+        display: flex;        
+        flex-direction: row;
+        gap: 200px;
+        justify-content: center;
+
+        h1{
+            font-size: 17px;
+        }
+        p{
+            font-size: 13px;
+        }
+
+        h1,p{
+             //underlining effect
+             position: relative;
+             cursor: pointer;
+    
+             &::after,
+             &::before {
+               content: "";
+               position: absolute;
+               bottom: 0;
+               height: 2px;
+               background-color: #fff;
+               width: 0;
+               transition: width 0.3s;
+             }
+           
+             &::after {
+               left: 0;
+             }
+           
+             &::before {
+               right: 0;
+             }
+           
+             &:hover::after,
+             &:hover::before {
+               width: 50%;
+             }   
+        }
+    }
+
+    .disclaimer{
+        display: flex;
+        justify-content: center;
+
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .handles{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        gap: 200px;
+
+        .social-media-handles{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            p{
+                 //underlining effect
+            position: relative;           
+            cursor: pointer;
+
+            &::after,
+            &::before {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              height: 2px;
+              background-color: #fff;
+              width: 0;
+              transition: width 0.3s;
+            }
+          
+            &::after {
+              left: 0;
+            }
+          
+            &::before {
+              right: 0;
+            }
+          
+            &:hover::after,
+            &:hover::before {
+              width: 50%;
+            }  
+            }
+        }
+    }
+}
+
+
+
+  
+}  
+  
+
+  
