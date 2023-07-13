@@ -1,5 +1,5 @@
 import React from "react";
-import '../../style.scss'
+import '../../../style.scss'
 
 const NavbarTwo = ()=>{
 return (
@@ -9,7 +9,7 @@ return (
         <button className="navTwo-buttons"> Alumnis </button>
         <button className="navTwo-buttons"> KCSE perfomance </button>
         <button className="navTwo-buttons"> FAQS </button>
-        <button className="navTwo-buttons"> Tenders & contracts </button>
+        <button className="navTwo-buttons"> Application Portal </button>
         <button className="navTwo-buttons"> Fees & Financial Aid </button>
         <button className="navTwo-buttons"> Partnerships</button>
         <button className="navTwo-buttons"> E-learning </button>      

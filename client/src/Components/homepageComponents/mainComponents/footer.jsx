@@ -1,5 +1,5 @@
 import React from "react";
-import '../style.scss'
+import '../../../style.scss'
 import { Facebook, Instagram, Twitter } from "react-bootstrap-icons";
 
 const Footer =()=>{

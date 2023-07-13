@@ -1,7 +1,7 @@
 import React from "react";
-import NavbarOne from "./componentsAssets/navbarOne";
-import NavbarTwo from "./componentsAssets/navbarTwo";
-import logo from '../Images/logo-3.png'
+import NavbarOne from "../componentsAssets/navbarOne";
+import NavbarTwo from "../componentsAssets/navbarTwo";
+import logo from '../../../Images/logo-3.png'
 
 const MainNavbar = ()=>{
     return(

@@ -1,6 +1,6 @@
-import DisplaySection from "../Components/displaySection"
-import Footer from "../Components/footer"
-import MainNavbar from "../Components/mainNavbar"
+import DisplaySection from "../Components/homepageComponents/mainComponents/displaySection"
+import Footer from "../Components/homepageComponents/mainComponents/footer"
+import MainNavbar from "../Components/homepageComponents/mainComponents/mainNavbar"
 
 const HomePage = ()=>{
     return(

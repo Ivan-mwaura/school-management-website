@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import '../../style.scss'
+import '../../../style.scss'
 
 const SlideShow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

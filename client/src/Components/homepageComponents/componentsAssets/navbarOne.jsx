@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import '../../style.scss'
-import AcademicList from "../navbarLists/academicsList";
-import AdmissionList from "../navbarLists/admissionsList";
-import CampusesList from "../navbarLists/campusesList";
-import StudentsAffairsList from '../navbarLists/studentsAffairsList'
-import ContactUsList from "../navbarLists/contactUsList";
-import AboutUsList from "../navbarLists/aboutUsList";
+import '../../../style.scss'
+import AcademicList from "../navbarOneAssets/navbarOneLists/academicsList";
+import AdmissionList from "../navbarOneAssets/navbarOneLists/admissionsList";
+import CampusesList from "../navbarOneAssets/navbarOneLists/campusesList";
+import StudentsAffairsList from '../navbarOneAssets/navbarOneLists/studentsAffairsList'
+import ContactUsList from "../navbarOneAssets/navbarOneLists/contactUsList";
+import AboutUsList from "../navbarOneAssets/navbarOneLists/aboutUsList";
 import { useNavigate } from "react-router";
 
 const NavbarOne = ()=>{
@@ -16,6 +16,7 @@ const navigate = useNavigate()
 function handleMouseEnter (button){
   setHovered(button)
 }
+
 function handleMouseLeave(){
   setHovered(null)
 }

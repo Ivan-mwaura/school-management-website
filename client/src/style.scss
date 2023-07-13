@@ -31,7 +31,7 @@
 
         margin-left: 60px;
         display: flex;
-        gap :80px;
+        gap :60px;
     
         
         .navOne-button1,.navOne-button2,.navOne-button3,.navOne-button4,.navOne-button5,.navOne-button6,.navOne-button7,.navOne-button8{
@@ -39,7 +39,7 @@
             border: none;
             color: white;
             background-color: #420a0a;
-            font-size: 15px;
+            font-size: 13px;
             
             //underlining effect
             position: relative;           
@@ -284,14 +284,14 @@
 
         margin-left: 50px;
         display: flex;
-        gap :60px;     
+        gap :40px;     
 
         .navTwo-buttons{
         
             border: none;
             color: white;
             background-color: #420a0a;
-            font-size: 14px;
+            font-size: 13px;
            
              //underlining effect
              position: relative;           
@@ -345,6 +345,9 @@
             h1{
                 font-size: 17px;
             }
+            p{
+                font-size: 14px;
+            }
         }
         
              //NavbarOneListComponents Styling
@@ -360,6 +363,9 @@
 
             h1{
                 font-size: 17px;
+            }
+            p{
+                font-size: 14px;
             }
         }
 
@@ -379,6 +385,14 @@
                 display: flex;
                 flex-direction: column;
 
+                h1{
+                    color: maroon;
+                }
+
+                p{
+                    font-size: 14px;
+                }
+
                 .location{
                     position: relative;
                     bottom: 0;
@@ -393,7 +407,47 @@
         }
         
     }
+
+           //NavbarOneListComponents Styling
+        //Contact Us
+
+        .contacts-general{
+            padding: 10px;
+            
+            .title{
+                font-size: 30px;
+                color: maroon;
+            }
+
+            h1{
+                font-size: 14px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
            
+              //NavbarOneListComponents Styling
+        //About Us
+
+        .aboutUs-general{
+            padding: 10px;
+            
+            .title{
+                font-size: 30px;
+                color: maroon;
+            }
+
+            h1,h2,h3{
+                font-size: 14px;
+            }
+            li{
+                font-size: 14px;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
     
  
   
@@ -416,7 +470,7 @@
 .slideshow{
 
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     width: 100%;
     margin-top: 0px;
     .slideshow-images{
@@ -425,6 +479,7 @@
             width: 300px;
             height: 300px;
             object-fit: cover;
+  
         }
     }
 
@@ -444,13 +499,13 @@
         margin-top: 150px      
     }
 }
-.slideshow-images {
+/*.slideshow-images {
     transition: transform 0.5s ease-in-out;
   }
   
   .slide-in-left {
     transform: translateX(0%);
-  }
+  }*/
 
   //News Styling
 
@@ -462,7 +517,7 @@
     padding: 30px;
     
     .news-component{
-        width: 320px;
+        width: 300px;
         height: 380px;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -473,16 +528,18 @@
 
         &:hover{
             transform: scale(1.1);
+            animation: ease-in-out 5s;
         }
 
         .news-image{
             width: 100%;
             height: 160px;
             object-fit: cover;
+            border-radius: 3px;
         }
 
         .heading{
-            font-size: 15px;
+            font-size: 14px;
             padding: 5px;
         }
         .label-date{

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import data from "./data";
-import NewsPlaceholder from "../../placeholders/newsPlaceholder";
+import NewsPlaceholder from "../../../placeholders/newsPlaceholder";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
 
@@ -61,13 +61,14 @@ const News = () => {
   return (
     <div className="news-container">
       <AliceCarousel
-        autoPlay
-        responsive={responsive}
-        slidesToShow={5}
-        slidesToScroll={1}
-        animationDuration={1500}
-        keyboardNavigation={true}
-        items={renderCarouselItems()}
+         autoPlay={true}
+         autoPlayInterval={3000}
+         responsive={responsive}
+         slidesToShow={5}
+         slidesToScroll={1}
+         animationDuration={1500}
+         keyboardNavigation={true}
+         items={renderCarouselItems()}
       />
     </div>
   );
