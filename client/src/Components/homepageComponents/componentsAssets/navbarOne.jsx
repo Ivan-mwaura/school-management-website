@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import '../../../style.scss'
-import AcademicList from "../navbarOneAssets/navbarOneLists/academicsList";
-import AdmissionList from "../navbarOneAssets/navbarOneLists/admissionsList";
-import CampusesList from "../navbarOneAssets/navbarOneLists/campusesList";
-import StudentsAffairsList from '../navbarOneAssets/navbarOneLists/studentsAffairsList'
-import ContactUsList from "../navbarOneAssets/navbarOneLists/contactUsList";
-import AboutUsList from "../navbarOneAssets/navbarOneLists/aboutUsList";
+import AcademicList from "../navbarAssets/navbarOneAssets/navbarOneLists/academicsList";
+import AdmissionList from "../navbarAssets/navbarOneAssets/navbarOneLists/admissionsList";
+import CampusesList from "../navbarAssets/navbarOneAssets/navbarOneLists/campusesList";
+import StudentsAffairsList from '../navbarAssets/navbarOneAssets/navbarOneLists/studentsAffairsList'
+import ContactUsList from "../navbarAssets/navbarOneAssets/navbarOneLists/contactUsList";
+import AboutUsList from "../navbarAssets/navbarOneAssets/navbarOneLists/aboutUsList";
 import { useNavigate } from "react-router";
 
 const NavbarOne = ()=>{

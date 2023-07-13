@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { AppContext } from "../../../../context/queryContext";
+import { AppContext } from "../../../../../context/queryContext";
 import { useNavigate } from "react-router";
 
 const CampusesList = ()=>{

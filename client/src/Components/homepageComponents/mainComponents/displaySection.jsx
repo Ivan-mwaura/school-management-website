@@ -5,21 +5,21 @@ import ReactLoading from 'react-loading';
 
 
 const EventAndNews = lazy(() => import('../componentsAssets/eventsAndNews'));
-const Departments = lazy(() => import('../navbarOneAssets/navbarOneListsComponents/academicsListcomponents/departments'));
-const Exams = lazy(() => import('../navbarOneAssets/navbarOneListsComponents/academicsListcomponents/exams'));
-const Library = lazy(() => import('../navbarOneAssets/navbarOneListsComponents/academicsListcomponents/library'));
-const Admissions = lazy(()=> import('../navbarOneAssets/navbarOneListsComponents/admissionsListcomponents/admissions'))
-const IntakeAdverts = lazy(()=> import('../navbarOneAssets/navbarOneListsComponents/admissionsListcomponents/intakeAdverts'))
-const EntryRequirements = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/admissionsListcomponents/entryRequirements'))
-const HowToApply = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/admissionsListcomponents/howToApply'))
-const Campuses = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/campusesListComponents/campuses'))
-const Contacts = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/contactUsListComponents/contacts'))
-const FAQS = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/contactUsListComponents/faqs'))
-const SocialMedia = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/contactUsListComponents/socialMedia'))
-const AboutUs = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/aboutUsListComponents/about'))  
-const WhyAnestar = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/aboutUsListComponents/whyAnestar'))
-const DirectorsMessage = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/aboutUsListComponents/directorsMessage'))
-const Organization = lazy(()=> import ( '../navbarOneAssets/navbarOneListsComponents/aboutUsListComponents/organization'))
+const Departments = lazy(() => import('../navbarAssets/navbarOneAssets/navbarOneListsComponents/academicsListcomponents/departments'));
+const Exams = lazy(() => import('../navbarAssets/navbarOneAssets/navbarOneListsComponents/academicsListcomponents/exams'));
+const Library = lazy(() => import('../navbarAssets/navbarOneAssets/navbarOneListsComponents/academicsListcomponents/library'));
+const Admissions = lazy(()=> import('../navbarAssets/navbarOneAssets/navbarOneListsComponents/admissionsListcomponents/admissions'))
+const IntakeAdverts = lazy(()=> import('../navbarAssets/navbarOneAssets/navbarOneListsComponents/admissionsListcomponents/intakeAdverts'))
+const EntryRequirements = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/admissionsListcomponents/entryRequirements'))
+const HowToApply = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/admissionsListcomponents/howToApply'))
+const Campuses = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/campusesListComponents/campuses'))
+const Contacts = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/contactUsListComponents/contacts'))
+const FAQS = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/contactUsListComponents/faqs'))
+const SocialMedia = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/contactUsListComponents/socialMedia'))
+const AboutUs = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/aboutUsListComponents/about'))  
+const WhyAnestar = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/aboutUsListComponents/whyAnestar'))
+const DirectorsMessage = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/aboutUsListComponents/directorsMessage'))
+const Organization = lazy(()=> import ( '../navbarAssets/navbarOneAssets/navbarOneListsComponents/aboutUsListComponents/organization'))
 
 const DisplaySection = () => {
 
