@@ -1,20 +1,27 @@
 import React, { createContext, useState } from 'react'
-import HomePage from '../Pages/homepage';
+import AllPages from '../Pages/allPages';
 
 export const AppContext = createContext(null)
 
 const QueryContext = ()=>{
     const[selectedCampus, setSelectedCampus] = useState("lanet")
+    const[register, setRegister] = useState('login')
+    const[showAdmissionsForm, setShowAdmissionsForm] = useState('showForm')
 
     return(
         <AppContext.Provider
         value={
             {
-                selectedCampus, setSelectedCampus
+                selectedCampus, setSelectedCampus,
+                register, setRegister,
+                showAdmissionsForm, setShowAdmissionsForm,
+
             }
         }
         >
-            <HomePage/>
+            
+            <AllPages/>
+
         </AppContext.Provider>
     )
 }
