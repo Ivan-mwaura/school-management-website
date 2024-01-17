@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const app = express()
 
-const path =require('path')
+const path =require('path') 
 
 const mainRouter = require('./routes/auth')
 const errorHandlerMiddleware = require('./middlwares/error-handler')
@@ -18,12 +18,15 @@ app.get('*', (req, res)=>{
     res.sendFile(path.join(__dirname, '../client/build/index.html'))
 })
 
+/*app.get('/', (req, res) => {
+    res.send('<h1>Store API</h1><a href="/api/v1/products">Hello</a>')
+})*/
+
 app.use(express.json())
 app.use(errorHandlerMiddleware)
 app.use(cors())
 
 app.use('/api/v1', mainRouter)
-
 
 const port = process.env.PORT || 5000;
 
